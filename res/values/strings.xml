@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">json2Map</string>
+    <string name="iconn_avail">Real internet connection available!</string>
+    <string name="iconn_not_avail">Real internet connection NOT available!</string>
 </resources>
