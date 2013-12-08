@@ -3,4 +3,5 @@
     <string name="app_name">json2Map</string>
     <string name="iconn_avail">Real internet connection available!</string>
     <string name="iconn_not_avail">Real internet connection NOT available!</string>
+    <string name="map_not_created">"Sorry! unable to create maps"</string>
 </resources>

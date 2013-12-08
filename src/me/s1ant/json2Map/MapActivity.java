@@ -28,7 +28,6 @@ public class MapActivity extends Activity {
         try {
             // Loading map
             initilizeMap();
-
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -43,9 +42,13 @@ public class MapActivity extends Activity {
             googleMap = ((MapFragment) getFragmentManager()
                     .findFragmentById(R.id.map)).getMap();
 
+            googleMap.getUiSettings().setMyLocationButtonEnabled(true);
+            googleMap.setMyLocationEnabled(true);
+
             // check if map is created successfully or not
             if (googleMap == null)
-                Toast.makeText(getApplicationContext(), "Sorry! unable to create maps", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), getString(R.string.map_not_created),
+                        Toast.LENGTH_SHORT).show();
         }
     }
 
