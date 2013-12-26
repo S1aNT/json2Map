@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:json2Map="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        json2Map:showAsAction="always|collapseActionView"
+        json2Map:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/action_share"
+        android:icon="@android:drawable/ic_menu_share"
+        json2Map:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        json2Map:showAsAction="ifRoom"/>
+
+    <!-- Settings, should always be in the overflow -->
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        json2Map:showAsAction="never"/>
+
+</menu> 
