@@ -4,4 +4,13 @@
     <string name="iconn_avail">Real internet connection available!</string>
     <string name="iconn_not_avail">Real internet connection NOT available!</string>
     <string name="map_not_created">"Sorry! unable to create maps"</string>
+    <string name="help">"Help topics"</string>
+
+    <string name="action_search">"Search posts"</string>
+    <string name="action_map_mode">Change maps layout</string>
+    <string name="action_settings">App settings</string>
+    <string name="action_share">Share Posts </string>
+    <string name="action_search_toast">Action search selected</string>
+    <string name="action_settings_toast">Action settings selected</string>
+
 </resources>
